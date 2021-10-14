@@ -1,0 +1,61 @@
+.sidebar {
+  background-color: #f7f6f3;
+  width: 17vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgba(55, 53, 47, 0.6);
+
+  &__options {
+    &__user {
+      &:hover {
+        cursor: pointer;
+        background-color: #d3d3d3;
+      }
+    }
+
+    &__menu {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 1rem;
+
+      &_item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem 1.2rem;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #d3d3d3;
+        }
+      }
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    p {
+      font-weight: 700;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+
+    padding: 0.8rem 1.2rem;
+    border-top: 1px solid #d3d3d3;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #d3d3d3;
+    }
+  }
+}
