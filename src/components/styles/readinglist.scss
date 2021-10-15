@@ -1,0 +1,87 @@
+.readinglist__container {
+  min-width: 83%;
+  position: absolute;
+  top: 0;
+  left: 17vw;
+
+  &__main {
+    padding: 2rem 5rem;
+
+    &_header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      svg {
+        height: auto;
+        width: 2rem;
+      }
+
+      h1 {
+        color: #808080;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+
+    &_options {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #708090;
+      margin-top: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #d3d3d3;
+
+      &_items {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        p {
+          padding: 0.3rem 0.8rem;
+          cursor: pointer;
+          border-radius: 3px;
+          &:hover {
+            background-color: #d3d3d3;
+          }
+        }
+
+        button {
+          cursor: pointer;
+          outline: none;
+          border: none;
+          border-radius: 3px;
+          padding: 0.3rem 0.8rem;
+          background-color: slateblue;
+          color: #ffffff;
+        }
+      }
+    }
+
+    &_books {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      .book_details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 0.3rem 0.8rem;
+
+        &:hover {
+          background-color: #d4d4d4;
+        }
+
+        &_status {
+          font-size: 14px;
+          padding: 2px 5px;
+          background-color: #90ee90;
+        }
+      }
+    }
+  }
+}

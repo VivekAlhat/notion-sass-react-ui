@@ -1,7 +1,7 @@
 import { IoAddSharp } from "react-icons/io5";
 import { BsClockHistory, BsTrash2Fill } from "react-icons/bs";
 import { HiOutlineTemplate } from "react-icons/hi";
-import { BiImport, BiCodeBlock, BiReset } from "react-icons/bi";
+import { BiImport, BiCodeBlock } from "react-icons/bi";
 import { IoIosSearch, IoIosArrowForward, IoIosCog } from "react-icons/io";
 import "./styles/sidebar.scss";
 
@@ -12,7 +12,6 @@ const Sidebar = () => {
         <div className="sidebar__options__menu_item">
           <BiCodeBlock />
           <p className="sidebar__options__user">Vivek's Notion</p>
-          <BiReset />
         </div>
         <div className="sidebar__options__menu">
           <ul>
@@ -30,7 +29,7 @@ const Sidebar = () => {
             </div>
           </ul>
           <ul>
-            <div className="sidebar__options__menu_item">
+            <div className="sidebar__options__menu_item active">
               <IoIosArrowForward />
               <li>Reading List</li>
             </div>

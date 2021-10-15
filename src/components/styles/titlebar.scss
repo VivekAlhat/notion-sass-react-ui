@@ -1,0 +1,17 @@
+.titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1.2rem;
+
+  &__main,
+  &__options {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__options {
+    cursor: pointer;
+  }
+}

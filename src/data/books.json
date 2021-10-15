@@ -1,0 +1,10 @@
+[
+  { "book": "Shiva The Ultimate Outlaw", "status": "read" },
+  { "book": "The 5 AM Club", "status": "to read" },
+  { "book": "Harry Potter ", "status": "finished" },
+  { "book": "Elon Musk", "status": "reading" },
+  { "book": "Atomic Habits", "status": "finished" },
+  { "book": "Ikigai", "status": "reading" },
+  { "book": "The 7 Habits Of Highly Effective People", "status": "reading" },
+  { "book": "God Of War: Lore & Legends", "status": "read" }
+]
